@@ -1,4 +1,4 @@
 bren
 ====
 
-A Bootstrap-RequireJs-Express-NodeJs setup.
+a lightweight quick-firing  Bootstrap-RequireJs-Express-NodeJs setup to start development.
