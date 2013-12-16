@@ -4,6 +4,9 @@ module.exports = function (app) {
   app.get('/', function(req, res){
     res.render('home.ejs',{ layout:'layout/pt_storefront',title: 'HOME'});
   });
+  app.get('/sitegenesis', function(req, res){
+    res.render('home.ejs',{ layout:'layout/sitegenesis',title: 'HOME'});
+  });
   app.get('/clp', function(req, res){
     res.render('modules/clp.ejs',{ layout:'layout/pt_productsearchresult',title: 'PLP'});
   });
